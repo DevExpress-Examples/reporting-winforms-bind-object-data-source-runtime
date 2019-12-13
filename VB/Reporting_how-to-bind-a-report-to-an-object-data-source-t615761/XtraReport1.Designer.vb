@@ -346,7 +346,7 @@
             Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() { Me.objectDataSource1})
             Me.DataSource = Me.objectDataSource1
             Me.StyleSheet.AddRange(New DevExpress.XtraReports.UI.XRControlStyle() { Me.Title, Me.GroupCaption3, Me.GroupData3, Me.DetailCaption3, Me.DetailData3, Me.DetailData3_Odd, Me.DetailCaptionBackground3, Me.PageInfo})
-            Me.Version = "18.1"
+            Me.Version = "19.2"
             CType(Me.xrTable3, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.xrTable1, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.xrTable2, System.ComponentModel.ISupportInitialize).EndInit()

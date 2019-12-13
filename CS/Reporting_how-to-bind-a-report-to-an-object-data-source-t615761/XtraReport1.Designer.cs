@@ -385,7 +385,7 @@
             this.DetailData3_Odd,
             this.DetailCaptionBackground3,
             this.PageInfo});
-            this.Version = "18.1";
+            this.Version = "19.2";
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
