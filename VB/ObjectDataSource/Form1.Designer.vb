@@ -1,5 +1,7 @@
-﻿Namespace ObjectDataSource
-    Partial Public Class Form1
+Namespace ObjectDataSource
+
+    Partial Class Form1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,176 +12,176 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
             Me.components = New System.ComponentModel.Container()
-            Dim superToolTip1 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem1 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem1 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip2 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem2 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem2 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip3 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem3 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem3 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip4 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem4 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem4 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip5 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem5 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem5 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip6 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem6 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem6 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip7 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem7 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem7 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip8 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem8 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem8 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip9 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem9 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem9 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip10 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem10 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem10 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip11 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem11 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem11 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip12 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem12 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem12 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip13 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem13 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem13 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip14 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem14 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem14 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip15 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem15 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem15 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip16 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem16 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem16 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip17 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem17 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem17 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip18 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem18 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem18 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip19 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem19 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem19 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip20 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem20 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem20 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip21 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem21 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem21 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip22 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem22 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem22 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip23 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem23 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem23 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip24 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem24 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem24 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip25 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem25 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem25 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip26 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem26 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem26 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip27 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem27 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem27 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip28 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem28 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem28 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip29 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem29 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem29 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip30 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem30 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem30 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip31 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem31 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem31 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip32 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem32 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem32 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip33 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem33 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem33 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip34 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem34 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem34 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip35 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem35 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem35 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip36 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem36 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem36 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip37 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem37 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem37 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip38 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem38 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem38 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip39 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem39 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem39 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip40 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem40 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem40 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip41 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem41 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem41 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip42 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem42 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem42 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip43 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem43 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem43 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip44 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem44 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem44 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip45 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem45 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem45 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip46 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem46 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem46 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip47 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem47 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem47 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip48 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem48 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem48 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip49 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem49 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem49 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip50 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem50 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem50 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip51 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem51 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem51 As New DevExpress.Utils.ToolTipItem()
-            Dim superToolTip52 As New DevExpress.Utils.SuperToolTip()
-            Dim toolTipTitleItem52 As New DevExpress.Utils.ToolTipTitleItem()
-            Dim toolTipItem52 As New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem2 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip3 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem3 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem3 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip4 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem4 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem4 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip5 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem5 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem5 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip6 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem6 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem6 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip7 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem7 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem7 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip8 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem8 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem8 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip9 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem9 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem9 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip10 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem10 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem10 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip11 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem11 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem11 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip12 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem12 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem12 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip13 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem13 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem13 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip14 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem14 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem14 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip15 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem15 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem15 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip16 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem16 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem16 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip17 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem17 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem17 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip18 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem18 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem18 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip19 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem19 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem19 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip20 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem20 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem20 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip21 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem21 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem21 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip22 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem22 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem22 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip23 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem23 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem23 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip24 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem24 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem24 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip25 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem25 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem25 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip26 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem26 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem26 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip27 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem27 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem27 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip28 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem28 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem28 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip29 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem29 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem29 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip30 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem30 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem30 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip31 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem31 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem31 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip32 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem32 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem32 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip33 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem33 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem33 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip34 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem34 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem34 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip35 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem35 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem35 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip36 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem36 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem36 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip37 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem37 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem37 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip38 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem38 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem38 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip39 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem39 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem39 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip40 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem40 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem40 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip41 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem41 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem41 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip42 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem42 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem42 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip43 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem43 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem43 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip44 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem44 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem44 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip45 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem45 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem45 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip46 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem46 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem46 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip47 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem47 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem47 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip48 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem48 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem48 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip49 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem49 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem49 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip50 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem50 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem50 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip51 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem51 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem51 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+            Dim superToolTip52 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+            Dim toolTipTitleItem52 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+            Dim toolTipItem52 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
             Me.documentViewer1 = New DevExpress.XtraPrinting.Preview.DocumentViewer()
             Me.documentViewerRibbonController1 = New DevExpress.XtraPrinting.Preview.DocumentViewerRibbonController(Me.components)
             Me.ribbonControl1 = New DevExpress.XtraBars.Ribbon.RibbonControl()
@@ -252,10 +254,10 @@
             Me.printPreviewRibbonPageGroup6 = New DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup()
             Me.printPreviewRibbonPageGroup7 = New DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup()
             Me.printPreviewRibbonPageGroup8 = New DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup()
-            CType(Me.documentViewerRibbonController1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.repositoryItemProgressBar1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.repositoryItemZoomTrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.documentViewerRibbonController1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.ribbonControl1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemProgressBar1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemZoomTrackBar1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' documentViewer1
@@ -278,15 +280,15 @@
             ' 
             Me.ribbonControl1.AutoHideEmptyItems = True
             Me.ribbonControl1.ExpandCollapseItem.Id = 0
-            Me.ribbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() { Me.ribbonControl1.ExpandCollapseItem, Me.printPreviewBarItem1, Me.printPreviewBarItem2, Me.printPreviewBarItem3, Me.printPreviewBarItem4, Me.printPreviewBarItem5, Me.printPreviewBarItem6, Me.printPreviewBarItem7, Me.printPreviewBarItem8, Me.printPreviewBarItem9, Me.printPreviewBarItem10, Me.printPreviewBarItem11, Me.printPreviewBarItem12, Me.printPreviewBarItem13, Me.printPreviewBarItem14, Me.printPreviewBarItem15, Me.printPreviewBarItem16, Me.printPreviewBarItem17, Me.printPreviewBarItem18, Me.printPreviewBarItem19, Me.printPreviewBarItem20, Me.printPreviewBarItem21, Me.printPreviewBarItem22, Me.printPreviewBarItem23, Me.printPreviewBarItem24, Me.printPreviewBarItem25, Me.printPreviewBarItem26, Me.printPreviewBarItem27, Me.printPreviewBarItem28, Me.printPreviewBarItem29, Me.printPreviewBarItem30, Me.printPreviewBarItem31, Me.printPreviewBarItem32, Me.printPreviewBarItem33, Me.printPreviewBarItem34, Me.printPreviewBarItem35, Me.printPreviewBarItem36, Me.printPreviewBarItem37, Me.printPreviewBarItem38, Me.printPreviewBarItem39, Me.printPreviewBarItem40, Me.printPreviewBarItem41, Me.printPreviewBarItem42, Me.printPreviewBarItem43, Me.printPreviewBarItem44, Me.printPreviewBarItem45, Me.printPreviewBarItem46, Me.printPreviewBarItem47, Me.printPreviewBarItem48, Me.printPreviewBarItem49, Me.printPreviewBarItem50, Me.printPreviewBarItem51, Me.printPreviewStaticItem1, Me.barStaticItem1, Me.progressBarEditItem1, Me.printPreviewBarItem52, Me.printPreviewStaticItem2, Me.zoomTrackBarEditItem1})
+            Me.ribbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.ribbonControl1.ExpandCollapseItem, Me.printPreviewBarItem1, Me.printPreviewBarItem2, Me.printPreviewBarItem3, Me.printPreviewBarItem4, Me.printPreviewBarItem5, Me.printPreviewBarItem6, Me.printPreviewBarItem7, Me.printPreviewBarItem8, Me.printPreviewBarItem9, Me.printPreviewBarItem10, Me.printPreviewBarItem11, Me.printPreviewBarItem12, Me.printPreviewBarItem13, Me.printPreviewBarItem14, Me.printPreviewBarItem15, Me.printPreviewBarItem16, Me.printPreviewBarItem17, Me.printPreviewBarItem18, Me.printPreviewBarItem19, Me.printPreviewBarItem20, Me.printPreviewBarItem21, Me.printPreviewBarItem22, Me.printPreviewBarItem23, Me.printPreviewBarItem24, Me.printPreviewBarItem25, Me.printPreviewBarItem26, Me.printPreviewBarItem27, Me.printPreviewBarItem28, Me.printPreviewBarItem29, Me.printPreviewBarItem30, Me.printPreviewBarItem31, Me.printPreviewBarItem32, Me.printPreviewBarItem33, Me.printPreviewBarItem34, Me.printPreviewBarItem35, Me.printPreviewBarItem36, Me.printPreviewBarItem37, Me.printPreviewBarItem38, Me.printPreviewBarItem39, Me.printPreviewBarItem40, Me.printPreviewBarItem41, Me.printPreviewBarItem42, Me.printPreviewBarItem43, Me.printPreviewBarItem44, Me.printPreviewBarItem45, Me.printPreviewBarItem46, Me.printPreviewBarItem47, Me.printPreviewBarItem48, Me.printPreviewBarItem49, Me.printPreviewBarItem50, Me.printPreviewBarItem51, Me.printPreviewStaticItem1, Me.barStaticItem1, Me.progressBarEditItem1, Me.printPreviewBarItem52, Me.printPreviewStaticItem2, Me.zoomTrackBarEditItem1})
             Me.ribbonControl1.Location = New System.Drawing.Point(0, 0)
             Me.ribbonControl1.MaxItemId = 58
             Me.ribbonControl1.Name = "ribbonControl1"
-            Me.ribbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() { Me.ribbonPage1})
-            Me.ribbonControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() { Me.repositoryItemProgressBar1, Me.repositoryItemZoomTrackBar1})
+            Me.ribbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.ribbonPage1})
+            Me.ribbonControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.repositoryItemProgressBar1, Me.repositoryItemZoomTrackBar1})
             Me.ribbonControl1.Size = New System.Drawing.Size(1093, 141)
             Me.ribbonControl1.StatusBar = Me.ribbonStatusBar1
-            Me.ribbonControl1.TransparentEditorsMode = DevExpress.Utils.DefaultBoolean.True
+            Me.ribbonControl1.TransparentEditorsMode = DevExpress.Utils.DefaultBoolean.[True]
             ' 
             ' ribbonStatusBar1
             ' 
@@ -549,7 +551,7 @@
             superToolTip14.FixedTooltipWidth = True
             toolTipTitleItem14.Text = "Magnifier"
             toolTipItem14.LeftIndent = 6
-            toolTipItem14.Text = "Invoke the Magnifier tool." & ControlChars.CrLf & ControlChars.CrLf & "Clicking once on a document zooms it so that a sing" & "le page becomes entirely visible, while clicking another time zooms it to 100% o" & "f the normal size."
+            toolTipItem14.Text = "Invoke the Magnifier tool." & Global.Microsoft.VisualBasic.Constants.vbCrLf & Global.Microsoft.VisualBasic.Constants.vbCrLf & "Clicking once on a document zooms it so that a sing" & "le page becomes entirely visible, while clicking another time zooms it to 100% o" & "f the normal size."
             superToolTip14.Items.Add(toolTipTitleItem14)
             superToolTip14.Items.Add(toolTipItem14)
             superToolTip14.MaxWidth = 210
@@ -722,7 +724,7 @@
             superToolTip24.FixedTooltipWidth = True
             toolTipTitleItem24.Text = "Watermark"
             toolTipItem24.LeftIndent = 6
-            toolTipItem24.Text = "Insert ghosted text or image behind the content of a page." & ControlChars.CrLf & ControlChars.CrLf & "This is often used " & "to indicate that a document is to be treated specially."
+            toolTipItem24.Text = "Insert ghosted text or image behind the content of a page." & Global.Microsoft.VisualBasic.Constants.vbCrLf & Global.Microsoft.VisualBasic.Constants.vbCrLf & "This is often used " & "to indicate that a document is to be treated specially."
             superToolTip24.Items.Add(toolTipTitleItem24)
             superToolTip24.Items.Add(toolTipItem24)
             superToolTip24.MaxWidth = 210
@@ -829,7 +831,7 @@
             superToolTip30.FixedTooltipWidth = True
             toolTipTitleItem30.Text = "Page Margins"
             toolTipItem30.LeftIndent = 6
-            toolTipItem30.Text = "Select the margin sizes for the entire document." & ControlChars.CrLf & ControlChars.CrLf & "To apply specific margin size" & "s to the document, click Custom Margins."
+            toolTipItem30.Text = "Select the margin sizes for the entire document." & Global.Microsoft.VisualBasic.Constants.vbCrLf & Global.Microsoft.VisualBasic.Constants.vbCrLf & "To apply specific margin size" & "s to the document, click Custom Margins."
             superToolTip30.Items.Add(toolTipTitleItem30)
             superToolTip30.Items.Add(toolTipItem30)
             superToolTip30.MaxWidth = 210
@@ -1280,12 +1282,12 @@
             Me.zoomTrackBarEditItem1.Enabled = False
             Me.zoomTrackBarEditItem1.Id = 57
             Me.zoomTrackBarEditItem1.Name = "zoomTrackBarEditItem1"
-            Me.zoomTrackBarEditItem1.Range = New Integer() { 10, 500}
+            Me.zoomTrackBarEditItem1.Range = New Integer() {10, 500}
             ' 
             ' ribbonPage1
             ' 
             Me.ribbonPage1.ContextSpecifier = Me.documentViewerRibbonController1
-            Me.ribbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.printPreviewRibbonPageGroup1, Me.printPreviewRibbonPageGroup2, Me.printPreviewRibbonPageGroup3, Me.printPreviewRibbonPageGroup4, Me.printPreviewRibbonPageGroup5, Me.printPreviewRibbonPageGroup6, Me.printPreviewRibbonPageGroup7, Me.printPreviewRibbonPageGroup8})
+            Me.ribbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.printPreviewRibbonPageGroup1, Me.printPreviewRibbonPageGroup2, Me.printPreviewRibbonPageGroup3, Me.printPreviewRibbonPageGroup4, Me.printPreviewRibbonPageGroup5, Me.printPreviewRibbonPageGroup6, Me.printPreviewRibbonPageGroup7, Me.printPreviewRibbonPageGroup8})
             Me.ribbonPage1.Name = "ribbonPage1"
             Me.ribbonPage1.Text = "Print Preview"
             ' 
@@ -1409,89 +1411,157 @@
             Me.Controls.Add(Me.ribbonControl1)
             Me.Name = "Form1"
             Me.Text = "Form1"
-            CType(Me.documentViewerRibbonController1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.repositoryItemProgressBar1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.repositoryItemZoomTrackBar1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.documentViewerRibbonController1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.ribbonControl1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemProgressBar1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemZoomTrackBar1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
             Me.PerformLayout()
-
         End Sub
 
-        #End Region
-
+#End Region
         Private documentViewer1 As DevExpress.XtraPrinting.Preview.DocumentViewer
+
         Private documentViewerRibbonController1 As DevExpress.XtraPrinting.Preview.DocumentViewerRibbonController
+
         Private ribbonControl1 As DevExpress.XtraBars.Ribbon.RibbonControl
+
         Private printPreviewBarItem1 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem2 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem3 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem4 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem5 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem6 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem7 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem8 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem9 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem10 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem11 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem12 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem13 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem14 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem15 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem16 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem17 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem18 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem19 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem20 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem21 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem22 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem23 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem24 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem25 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem26 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem27 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem28 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem29 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem30 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem31 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem32 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem33 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem34 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem35 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem36 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem37 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem38 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem39 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem40 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem41 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem42 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem43 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem44 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem45 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem46 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem47 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem48 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem49 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem50 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewBarItem51 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewStaticItem1 As DevExpress.XtraPrinting.Preview.PrintPreviewStaticItem
+
         Private barStaticItem1 As DevExpress.XtraBars.BarStaticItem
+
         Private progressBarEditItem1 As DevExpress.XtraPrinting.Preview.ProgressBarEditItem
+
         Private repositoryItemProgressBar1 As DevExpress.XtraEditors.Repository.RepositoryItemProgressBar
+
         Private printPreviewBarItem52 As DevExpress.XtraPrinting.Preview.PrintPreviewBarItem
+
         Private printPreviewStaticItem2 As DevExpress.XtraPrinting.Preview.PrintPreviewStaticItem
+
         Private zoomTrackBarEditItem1 As DevExpress.XtraPrinting.Preview.ZoomTrackBarEditItem
+
         Private repositoryItemZoomTrackBar1 As DevExpress.XtraEditors.Repository.RepositoryItemZoomTrackBar
+
         Private ribbonPage1 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPage
+
         Private printPreviewRibbonPageGroup1 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
+
         Private printPreviewRibbonPageGroup2 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
+
         Private printPreviewRibbonPageGroup3 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
+
         Private printPreviewRibbonPageGroup4 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
+
         Private printPreviewRibbonPageGroup5 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
+
         Private printPreviewRibbonPageGroup6 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
+
         Private printPreviewRibbonPageGroup7 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
+
         Private printPreviewRibbonPageGroup8 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
+
         Private ribbonStatusBar1 As DevExpress.XtraBars.Ribbon.RibbonStatusBar
     End Class
 End Namespace
-

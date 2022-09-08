@@ -1,110 +1,130 @@
-﻿Imports System
+Imports System
 Imports System.Collections.Generic
 Imports System.ComponentModel
 Imports System.IO
 Imports DevExpress.DataAccess.ObjectBinding
 
-
 Namespace ObjectDataSource
-    <DisplayName("Fishes"), HighlightedClass> _
+
+    <DisplayName("Fishes")>
+    <HighlightedClass>
     Public Class Fishes
         Inherits List(Of Fish)
 
-        <HighlightedMember> _
+        <HighlightedMember>
         Public Sub New(ByVal filePath As String)
             Dim path As String = TryCast(AppDomain.CurrentDomain.GetData("DataDirectory"), String)
-            If Not String.IsNullOrEmpty(path) Then
-                filePath = System.IO.Path.Combine(path, filePath)
-            End If
+            If Not String.IsNullOrEmpty(path) Then filePath = IO.Path.Combine(path, filePath)
             If File.Exists(filePath) Then
                 Using stream As Stream = File.OpenRead(filePath)
-                    Me.LoadFrom(stream)
+                    LoadFrom(stream)
                 End Using
             End If
         End Sub
+
         Public Sub New(ByVal stream As Stream)
-            Me.LoadFrom(stream)
+            LoadFrom(stream)
         End Sub
+
         Private Sub LoadFrom(ByVal stream As Stream)
             Dim input As TextReader = New StreamReader(stream)
             Dim line As String
             Dim id As Integer = 0
-            line = input.ReadLine()
-            Do While line IsNot Nothing
-                Dim items() As String = line.Split("|"c)
+            While Not Equals((CSharpImpl.__Assign(line, input.ReadLine())), Nothing)
+                Dim items As String() = line.Split("|"c)
                 If items.Length = 4 Then
-                    id += 1
-                    Dim fishItem As New Fish(items(0), items(1), items(2), items(3), id)
-                    Me.Add(fishItem)
+                    Threading.Interlocked.Increment(id)
+                    Dim fishItem As Fish = New Fish(items(0), items(1), items(2), items(3), id)
+                    Add(fishItem)
                 End If
-                line = input.ReadLine()
-            Loop
+            End While
+
             input.Close()
         End Sub
+
+        Private Class CSharpImpl
+
+            <Obsolete("Please refactor calling code to use normal Visual Basic assignment")>
+            Shared Function __Assign(Of T)(ByRef target As T, value As T) As T
+                target = value
+                Return value
+            End Function
+        End Class
     End Class
+
     Public Class Fish
 
-        Private id_Renamed As Integer
+        Private idField As Integer
 
-        Private category_Renamed As String = "Undefined"
+        Private categoryField As String = "Undefined"
 
-        Private commonName_Renamed As String = "Undefined"
+        Private commonNameField As String = "Undefined"
 
-        Private speciesName_Renamed As String = "Undefined"
+        Private speciesNameField As String = "Undefined"
 
-        Private notes_Renamed As String = "Undefined"
+        Private notesField As String = "Undefined"
 
-        <DisplayName("Fish Category")> _
-        Public Property Category() As String
+        <DisplayName("Fish Category")>
+        Public Property Category As String
             Get
-                Return category_Renamed
+                Return categoryField
             End Get
+
             Set(ByVal value As String)
-                category_Renamed = value
+                categoryField = value
             End Set
         End Property
-        <DisplayName("Fish Common Name")> _
-        Public Property CommonName() As String
+
+        <DisplayName("Fish Common Name")>
+        Public Property CommonName As String
             Get
-                Return commonName_Renamed
+                Return commonNameField
             End Get
+
             Set(ByVal value As String)
-                commonName_Renamed = value
+                commonNameField = value
             End Set
         End Property
-        <DisplayName("Fish Species Name")> _
-        Public Property SpeciesName() As String
+
+        <DisplayName("Fish Species Name")>
+        Public Property SpeciesName As String
             Get
-                Return speciesName_Renamed
+                Return speciesNameField
             End Get
+
             Set(ByVal value As String)
-                speciesName_Renamed = value
+                speciesNameField = value
             End Set
         End Property
-        <DisplayName("Fish Notes")> _
-        Public Property Notes() As String
+
+        <DisplayName("Fish Notes")>
+        Public Property Notes As String
             Get
-                Return notes_Renamed
+                Return notesField
             End Get
+
             Set(ByVal value As String)
-                notes_Renamed = value
+                notesField = value
             End Set
         End Property
-        <DisplayName("Fish ID")> _
-        Public Property ID() As Integer
+
+        <DisplayName("Fish ID")>
+        Public Property ID As Integer
             Get
-                Return id_Renamed
+                Return idField
             End Get
+
             Set(ByVal value As Integer)
-                id_Renamed = value
+                idField = value
             End Set
         End Property
+
         Public Sub New(ByVal category As String, ByVal commonName As String, ByVal speciesName As String, ByVal notes As String, ByVal id As Integer)
-            Me.category_Renamed = category
-            Me.commonName_Renamed = commonName
-            Me.speciesName_Renamed = speciesName
-            Me.notes_Renamed = notes
-            Me.id_Renamed = id
+            categoryField = category
+            commonNameField = commonName
+            speciesNameField = speciesName
+            notesField = notes
+            idField = id
         End Sub
     End Class
 End Namespace
