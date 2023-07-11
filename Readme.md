@@ -1,18 +1,21 @@
-<!-- default badges list -->
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T615761)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+# How to Bind a Report to an Object Data Source at Runtime
 
-* **[Fishes.cs](./CS/ObjectDataSource/Fishes.cs) (VB: [Fishes.vb](./VB/ObjectDataSource/Fishes.vb))**
-* [XtraReport1.cs](./CS/ObjectDataSource/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/ObjectDataSource/XtraReport1.vb))
-<!-- default file list end -->
-# How to bind a report to an object data source
+This example creates a simple report in code, creates an [ObjectDataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ObjectBinding.ObjectDataSource) instance, fills it with data, and binds the report to the object data source.
+
+![Report Bound to Object Data Source](Images/screenshot.png)
+
+## Files to Look At
+
+* [ReportHelper.cs](CS/WindowsFormsApp1/ReportHelper.cs)(VB:[ReportHelper.vb](VB/WindowsFormsApp1/ReportHelper.vb))
+* [Form1.cs](CS/WindowsFormsApp1/Form1.cs)(VB:[Form1.vb](VB/WindowsFormsApp1/Form1.vb))
+
+## Documentation
+
+- [Bind Reports to Data](https://docs.devexpress.com/XtraReports/15034/detailed-guide-to-devexpress-reporting/bind-reports-to-data)
+- [Use Object Data Source](https://docs.devexpress.com/CoreLibraries/403658/devexpress-data-library/data-sources/use-object-data-source)
+- [Create a Report in Code](https://docs.devexpress.com/XtraReports/115726/detailed-guide-to-devexpress-reporting/reporting-api/create-reports-in-code)
 
 
-This example demonstrates how to create a class that contains the data source definition (the <strong>Fishes </strong>file) and create a report bound to this class at design time in Visual Studio.<br><br>For a step-by-step tutorial, refer to <a href="https://documentation.devexpress.com/XtraReports/17784/Creating-Reports-in-Visual-Studio/Detailed-Guide-to-DevExpress-Reporting/Providing-Data-to-Reports/Tutorials-and-Code-Examples/Bind-a-Report-to-an-Object-Data-Source">Bind a Report to an Object Data Source</a>.
 
-<br/>
 
 
