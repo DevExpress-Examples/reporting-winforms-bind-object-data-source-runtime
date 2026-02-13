@@ -21,7 +21,7 @@ This example creates a simple report in code, creates an [ObjectDataSource](http
 - [Use Object Data Source](https://docs.devexpress.com/CoreLibraries/403658/devexpress-data-library/data-sources/use-object-data-source)
 - [Create a Report in Code](https://docs.devexpress.com/XtraReports/115726/detailed-guide-to-devexpress-reporting/reporting-api/create-reports-in-code)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-bind-object-data-source-runtime&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-bind-object-data-source-runtime&~~~was_helpful=no)
 
